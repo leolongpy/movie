@@ -18,4 +18,5 @@ const (
 	ServiceNameCinema  = "cinema"
 	ServiceNameOrder   = "order"
 	ServiceNameCMS     = "cms"
+	ServiceNamePlace   = "place"
 )
