@@ -26,7 +26,7 @@ func Init(srvName string) *zap.Logger {
 
 // NewLogger 新建日志
 func NewLogger(srvName string) *zap.Logger {
-	directory := "D:\\Tools\\Go_Work\\src\\my-micro\\"
+	directory := "..\\..\\logdata"
 	if len(directory) == 0 {
 		directory = path.Join("..", "log", srvName)
 	} else {
